@@ -1,0 +1,125 @@
+
+/* Hero Section */
+.heroSection {
+    position: relative;
+    width: 100%;
+    background-image: url('/images/web_developer_melbourne.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+    margin-top: 50px;
+  }
+  
+  .heroContainer {
+    display: grid;
+    grid-template-columns:  2fr 1fr;
+  }
+  
+  
+  .heroContent {
+    margin-left: 5rem;
+    animation: slideUp 1s ease-in-out forwards;
+    opacity: 0;
+  }
+  
+  .heroTitle {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: var(--primary);
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  .heroSubtitle {
+    font-size: 1rem;
+  line-height: 1.5;
+    color: var(--primary);
+    text-align: justify;
+  }
+  .heroContainerSocial {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-size: 1.4rem;
+  
+  }
+  
+  .heroContainerSocial a {
+    color: var(--secondary-color);
+    margin-top: 2rem;
+  }
+  
+  /* Small Boxes */
+  .smallBox {
+    background-color: rgba(218, 215, 215, 0.6);
+    margin-top: 10rem;
+    color: var(--primary);
+    padding: 50px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .smallBox i {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    box-shadow: var(--box-shadow-2);
+    margin-bottom: 10px;
+    border-radius: 50%;
+  }
+  
+  .smallBox h3 {
+    margin: 10px 30px;
+    font-size: 1.2rem;
+    color: var(--tertiary);
+  }
+  
+  .smallBox p {
+    font-size: 0.9rem;
+    color: var(--primary);
+  }
+  
+  /* Animation */
+  @keyframes slideUp {
+    from {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .heroContainer {
+      grid-template-columns: 1fr;
+
+    }
+    .heroTitle {
+      font-size: 2rem;
+    }
+  
+    .heroSubtitle {
+      font-size: 1rem;
+    }
+    .heroContent {
+      margin-left: 1rem;
+    }
+  
+    .featureGrid {
+      grid-template-columns: 1fr;
+      bottom: -30px;
+    }
+  
+    .bigBox {
+      grid-column: span 1;
+    }
+  }
+  

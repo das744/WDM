@@ -1,0 +1,87 @@
+/* Section Styling */
+.exciting-section {
+    background: var(--tertiary);
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    margin: 2rem 0;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+  }
+  
+  /* Heading & Paragraph */
+  .exciting-heading {
+    font-size: 32px;
+    margin-bottom: 10px;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
+  }
+  
+  .exciting-text {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
+  }
+  
+  /* Circle Container for Moving Icons */
+  .icon-container {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Continuous Left-to-Right Movement */
+  .icon-slider {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    animation: moveLeftToRight 10s linear infinite;
+  }
+  
+  /* Individual Icon Styling */
+  .icon-slider i {
+    font-size: 40px;
+    color: white;
+    margin: 0 15px;
+    opacity: 0.8;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Hover Effect for Icons */
+  .icon-slider i:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Keyframes for Fade-in Effect */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Keyframes for Left-to-Right Movement */
+  @keyframes moveLeftToRight {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

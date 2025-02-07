@@ -1,0 +1,49 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+:root{
+  --primary: #333;
+  --secondary: #eee;
+  --tertiary: #404040;
+  --secondary-color: #ff9800;
+  /* #fcda32 */
+  --box-shadow-1: .1px .5px .5px .2px var(--primary);
+  --box-shadow-2: 0 1rem 1rem 2px rgba(47, 47, 47, 0.1);
+  --fa-font-brands: normal 400 1em / 1 "Font Awesome 6 Brands";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Liberation Mono", "Courier New", monospace;
+}
+h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-top: clamp(1rem, 4vw, 3rem);
+    color: var(--tertiary)!important;
+   
+}
+a{
+  font-family: "Liberation Mono", "Courier New", monospace;
+}
+button {
+  border: none;
+  outline: none;
+    font-size: clamp(0.875rem, 2.5vw, 1.25rem);
+    padding: clamp(0.5rem, 1.5vw, 1rem) clamp(1rem, 2vw, 1.5rem);
+    border-radius: clamp(5px, 2vw, 15px);
+    background-image: linear-gradient(to left bottom, #111111, #121213, #141414, #151516, #161617, #1c1c1d, #222323, #282929, #353737, #434545, #515454, #606363);
+    /* background-image: linear-gradient(to right bottom, #0eafbd, #28afbc, #37b0ba, #42b0b9, #4cb0b8, #51b6b9, #56bbba, #5dc1bb, #67cebb, #77dab9, #8be5b5, #a2f0b0);
+    background-image: linear-gradient(to right bottom, #158c96, #27939c, #3499a2, #3fa0a9, #4aa7af, #4fb0b3, #56b8b7, #5dc1bb, #67cebb, #77dab9, #8be5b5, #a2f0b0); */
+}
+span{
+  font-size: 70px;
+  text-shadow: var(--box-shadow-1);
+  color: var(--secondary-color)
+}

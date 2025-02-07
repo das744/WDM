@@ -1,0 +1,99 @@
+.mostExciting {
+    padding: 12rem 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  
+  .container {
+  }
+  
+  .mostExcitingTitle h2 {
+    margin-top: 30%;
+    font-size: 2rem;
+    color: var(--tertiary);
+  }
+  
+  .mostExcitingTitle p {
+    color: var(--primary);
+    margin: 0.7rem;
+    text-align: justify;
+  }
+  
+  .flexContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+  
+  .mostExcitingCard {
+    border: 1px solid var(--text-white);
+    margin: 1rem;
+    padding: 3rem;
+    border-radius: 0.4rem;
+    box-shadow: var(--box-shadow-2);
+  }
+  
+  .mostExcitingCard:nth-child(4) {
+    background: var(--secondary);
+    color: var(--text-white);
+  }
+  
+  .mostExcitingCard:nth-child(4) span.fas {
+    color: var(--text-white);
+    background-color: var(--secondary-color);
+
+  }
+  
+  .mostExcitingCard h4 {
+    color: var(--tertiary);
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+  }
+  
+  .mostExcitingCard p {
+    color: var(--primary);
+    margin-top: 0.7rem;
+  }
+  
+  .fas {
+    color: var(--primary);
+    font-size: 25px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 3rem;
+    box-shadow: var(--box-shadow-1);
+  }
+  
+  .fas:hover {
+    background: var(--primary);
+    color: var(--text-white);
+  }
+  
+  @keyframes slideInFromBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideInFromTop {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    .mostExciting {
+      padding: 6rem 0;
+    }
+  }
