@@ -8,12 +8,12 @@ const AboutUs = () => {
       className: styles.image1,
     },
     {
-      src: '/images/web_developer_melbourne_img1.avif',
+      src: '/images/web_developer_melbourne_img1.jpg',
       alt: 'Image 2',
       className: styles.image2,
     },
     {
-      src: '/images/social_media_img_web_developer_melbourne.webp',
+      src: '/images/social_media_img_web_developer_melbourne.jpg',
       alt: 'Image 3',
       className: styles.image3,
     },
