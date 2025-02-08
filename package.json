@@ -10,8 +10,6 @@
     "sitemap": "next-sitemap"
   },
   "dependencies": {
-    "@fortawesome/react-fontawesome": "^0.2.2",
-    "axios": "^1.7.9",
     "mongoose": "^8.10.0",
     "next": "15.1.6",
     "next-sitemap": "^4.2.3",

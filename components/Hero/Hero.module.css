@@ -31,8 +31,8 @@
   .heroTitle {
     font-size: 3rem;
     margin-bottom: 10px;
-    color: var(--primary);
-    text-shadow: 1px 1px 2px black;
+    color: rgb(68, 67, 67) !important;
+    text-shadow: 5px 5px 5px rgb(137, 137, 137);
   }
   
   .heroSubtitle {

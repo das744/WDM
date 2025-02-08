@@ -63,7 +63,7 @@ const Contact = () => {
           </li>
           <li>
             <i className="fa fa-map-marker"></i>
-            <p>1270 Main Rd, Eltham, Melbourne, Australia</p>
+            <p>1270 Main Rd, Melbourne, Australia</p>
           </li>
         </ul>
         <div className={styles.socialIcons}>

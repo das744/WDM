@@ -20,7 +20,7 @@ const testimonials = [
     id: 3,
     quote: "Capturing the Essence",
     text: "They managed to capture the essence of my brand in every shot. The Services are now proudly displayed on my website!",
-    author: "Mark.",
+    author: "Kelly.",
     imgSrc: "", 
   },
 ];

@@ -4,7 +4,7 @@
   --primary: #333;
   --secondary: #eee;
   --tertiary: #404040;
-  --secondary-color: #ff9800;
+  --secondary-color: #ff9100;
   /* #fcda32 */
   --box-shadow-1: .1px .5px .5px .2px var(--primary);
   --box-shadow-2: 0 1rem 1rem 2px rgba(47, 47, 47, 0.1);
