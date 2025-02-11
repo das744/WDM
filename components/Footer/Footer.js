@@ -45,12 +45,13 @@ const Footer = () => {
           <a href="#contact" className={styles.link}>
             send feedback
           </a>
-          <a href="#" className={styles.link}>
+          {/* <a href="#" className={styles.link}>
             private policy
           </a>
           <a href="#" className={styles.link}>
             terms of use
-          </a>
+          </a> */}
+
         </div>
 
         <div className={styles.box}>
