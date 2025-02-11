@@ -9,7 +9,7 @@ export const servicesData = [
       id: 2,
       icon: "fas fa-search",
       title: "SEO-Friendly Websites",
-      description: "Optimized for Google ranking, fast speed, and structured data.",
+      description: "Optimised for Google ranking, fast speed, and structured data.",
     },
     {
       id: 3,

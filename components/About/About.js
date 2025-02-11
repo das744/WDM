@@ -2,7 +2,7 @@ import styles from "@/components/About/About.module.css";
 
 const About = () => {
   const features = [
-    "Google-Optimized Websites for Higher Rankings.",
+    "Google-Optimised Websites for Higher Rankings.",
     "Modern & Responsive Design.",
     "Lightning-Fast Page Speed.",
     "Custom Features & E-commerce Solutions.",

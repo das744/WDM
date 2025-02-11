@@ -11,19 +11,19 @@ import Contact from '@/components/Contact/Contact';
 import Script from "next/script";
 
 export const metadata = {
-  title: "Web Developer in Melbourne -WDM | Custom Websites & SEO Optimisation",
-  description: "Looking for an expert web developer in Melbourne? I create SEO-friendly, fast, and responsive websites using Next.js.",
+  title: "Web Developer in Melbourne- WDM | Web Design and Development",
+  description: "Your Vision, Our Creation- Web Developer in Melbourne. Get an Affordable High-Performance Website which is Secure, Fast & User-Friendly!",
   keywords: [
     "Web Developer in Melbourne",
-    "SEO-Friendly Websites Melbourne",
-    "Next.js Web Development",
-    "Melbourne Website Designer",
-    "Custom Website Development",
-    "Website Designer in Melbourne",
-    "Responsive Web Design Melbourne",
+    " Website Developers Melbourne",
+    " Website Development Melbourne",
+    // "Melbourne Website Designer",
+    "Web Developer Near Me",
+    "Website Designer Near Me",
+    // "Affordable Website Design Melbourne",
   ],
   openGraph: {
-    title: "Web Developer in Melbourne | Custom Websites & SEO Optimisation",
+    title: "Web Developer in Melbourne- WDM | Web Design and Development",
     description: "Get high-performance, SEO-optimised websites in Melbourne. Expert in Next.js, React, and mobile-friendly web development.",
     url: "https://webdeveloperinmelbourne.com.au",
     siteName: "Web Developer in Melbourne",

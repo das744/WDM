@@ -100,7 +100,12 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-        <a href="#contact"><button className={styles.quote}> Get Quote </button></a>
+        <a href="#contact"
+              onClick={(e) => {
+                e.preventDefault();
+                handleScrollToSection("contact");
+              }}
+            ><button className={styles.quote}> Get Quote </button></a>
 
         {/* Menu Icon for Mobile */}
         <div className={styles.menuIcon} onClick={openSidebar}>

@@ -26,7 +26,7 @@ const AboutUs = () => {
           <span>W</span>ho We Are
         </h2>
         <p id="animated-paragraph">
-        We are a dedicated web development team focused on building modern websites using the latest technologies. Our goal is to create websites that are easy to use, secure, and efficient. We prioritize data protection with secure databases and ensure that each project is optimized for performance. Whether you're starting from scratch or updating an existing site, we provide reliable solutions to meet your needs.
+        We are a dedicated web development team focused on building modern websites using the latest technologies. Our goal is to create websites that are easy to use, secure, and efficient. We prioritise data protection with secure databases and ensure that each project is optimsed for performance. Whether you're starting from scratch or updating an existing site, we provide reliable solutions to meet your needs.
 
        
         </p>
