@@ -18,6 +18,9 @@ export default function Layout({ children }) {
   <link rel="icon" type="image/png" href="/favicon.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
          
+          {/* Google Search Console Verification Meta Tag Here */}
+
+          <meta name="google-site-verification" content="xsulLnjXTHiPvFdCBj8vG5JXTFRBuDUM6c9k2pEyUEk" />
 
        {/* Google Analytics Script */}
        <Script

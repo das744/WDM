@@ -22,7 +22,7 @@ const About = () => {
         <p>
         We offer a range of services designed to meet your specific needs. From small websites to large-scale projects, we provide the perfect solution for every type of business.
         </p>
-        <ul>
+        <ul >
           {features.map((feature, index) => (
             <li key={index}>
               <i className="fas fa-check-circle"></i> {feature}
